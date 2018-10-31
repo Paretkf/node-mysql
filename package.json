@@ -1,0 +1,20 @@
+{
+  "name": "api-mysql",
+  "version": "1.0.0",
+  "description": "example code for create api with mySql Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "restAPI"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
