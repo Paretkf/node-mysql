@@ -3,7 +3,7 @@ const routes    = require('./routes')
 
 app.use('', routes)
 
-const PORT = port || process.env.port
+const PORT = process.env.port ? process.env.port : port
 
 app.listen(PORT)
 console.log('Server is running on port: ' + PORT)
