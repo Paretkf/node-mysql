@@ -3,7 +3,9 @@ const routes    = require('./routes')
 
 app.use('', routes)
 
-app.listen(port)
-console.log('Server is running on port: ' + port)
+const PORT = port || process.env.port
+
+app.listen(PORT)
+console.log('Server is running on port: ' + PORT)
 
 module.exports = app
